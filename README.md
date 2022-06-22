@@ -1,8 +1,10 @@
-# NGINX Unit 1.24.0 with PHP7.4.18 and the newest PDO MYSQL and CURL support
+# NGINX Unit 1.27.0 with PHP7.4.30 and the newest PDO MYSQL and CURL support
 
-Source of Docker custom built of NGINX Unit with PHP7.4 and PDO MYSQL support based on nginx/unit:1.24.0-minimal official image.
+Source of Docker custom built of NGINX Unit with PHP7.4 and PDO MYSQL support based on nginx/unit:1.27.0-minimal official image.
 
 ## CHANGELOG
+* 06/2022: nginx unit has been upgraded from 1.24 to 1.27; php upgrade from 7.4.18 to 7.4.30; ca-certificates build fix to not purge the package
+
 * 06/2021: nginx unit has been upgraded from 1.20 to 1.24; php upgrade from 7.4.11 to 7.4.18; curl support added to PHP 7.4
 
 Ready to use image on Docker Hub: https://hub.docker.com/r/piotrpazola/nginx-unit
